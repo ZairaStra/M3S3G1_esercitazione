@@ -76,3 +76,45 @@ console.log(arrayOfNumbs);
 //questa sintassi ha senso nel caso in cui io voglia creare un componente riutilizzabile con più tipi a seconda dei casi specifici
 var anotheArrayOfNumbs = [1, 2, 3];
 console.log(anotheArrayOfNumbs);
+/*
+11) Crea una tupla per definire un array di 5 elementi, i primi 3 devono essere stringhe e gli ultimi due numeri.
+*/
+var myTuple = [myName, mySurname, mySurname.slice(2, 4), myAge + 2, myAge];
+console.log(myTuple);
+var firstPerson = {
+    firstname: "Zaira",
+    lastname: "Straticò",
+    age: 32,
+};
+console.log(firstPerson);
+var firstContacts = {
+    mail: "zairastratico.yahoo.it",
+    phone: 981949292,
+};
+console.log(firstContacts);
+var students = [
+    { name: "Zaira", rate: 6 },
+    { name: "Angelo", rate: 8 },
+    { name: "Maria", rate: 7 },
+    { name: "Giulio", rate: 5 },
+];
+console.log(students);
+var bike = {
+    wheels: 2,
+    handlebar: true,
+    color: "purple",
+};
+console.log(bike);
+/*
+17) Crea un oggetto che implementi l'interfaccia Auto.
+*/
+var puma = {
+    wheels: 4,
+    steering: true,
+    color: "white",
+    displacement: 1000,
+    transmission: "auto",
+    fuel: "diesel",
+    eco: false,
+};
+console.log(puma);
