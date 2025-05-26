@@ -59,7 +59,7 @@ console.log(lenghtValue());
 /* 
 7) Cos'è un Type Union e come si scrive?
 
-Un Type Union consiste nell'assegnare due o più tipi possibili a una variabile, in modo che possa "contenere" tipi diversi a seconda del punto in cui la utilizzo e dal valore che voglio assegnarle in quel contesto;
+Una Type Union consiste nell'assegnare due o più tipi possibili a una variabile, in modo che possa "contenere" tipi diversi a seconda del punto in cui la utilizzo e dal valore che voglio assegnarle in quel contesto;
 i tipi possibili vanno scritti uno di seguito all'altro separati da una linea verticale:
 */
 
