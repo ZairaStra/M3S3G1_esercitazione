@@ -45,7 +45,7 @@ console.log(sum(4, 7));
 */
 //tipizzazione esplicita: dichiaro il tipo di valore ottenuto da ciascuna variabile
 const totalPrice: (price: number) => number = (price) => price + price * 0.22;
-console.log(totalPrice(56));
+console.log(totalPrice(10));
 
 /* 
 6) Crea una funzione che concateni due stringhe e restituisca la lunghezza totale.
@@ -219,39 +219,6 @@ Sì, è possibile
 
 /*
 20) Crea un'interfaccia generica per una risposta API. 
-
- useEffect(() => {
-    const fetchTodayWeather = async () => {
-      try {
-        const cityResponse = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${token}`);
-        if (!cityResponse.ok) {
-          setError(true);
-          setErrorMessage("City not found - please try with another city");
-          return;
-        }
-        const cityData = await cityResponse.json();
-        const { lat, lon } = cityData.coord;
-
-        const weatherToday = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${token}&units=metric`);
-        if (!weatherToday.ok) {
-          setError(true);
-          setErrorMessage("Errore loading data");
-          return;
-        }
-        const weatherData = await weatherToday.json();
-        setWeather(weatherData);
-        setError(false);
-        setErrorMessage("");
-      } catch {
-        setError(true);
-        setErrorMessage("Error loading data");
-      } finally {
-        setLoading(false);
-      }
-    };
-    
-    fetchTodayWeather();
-  }, [cityName]);
 */
 
 //uso un generics così l'interface è riutilizzabile sostituendo al parametro il risultato ottenuto dall'APi

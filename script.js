@@ -39,7 +39,7 @@ console.log(sum(4, 7));
 */
 //tipizzazione esplicita: dichiaro il tipo di valore ottenuto da ciascuna variabile
 var totalPrice = function (price) { return price + price * 0.22; };
-console.log(totalPrice(56));
+console.log(totalPrice(10));
 /*
 6) Crea una funzione che concateni due stringhe e restituisca la lunghezza totale.
 */
